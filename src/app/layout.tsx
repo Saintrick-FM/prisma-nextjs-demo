@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={clsx(nunito.variable, nunitoSans.variable)}>
       
-      <body ><Header/>{children} <Footer/></body>
+      <body className='overflow-x-hidden'><Header/>{children} <Footer/></body>
     </html>
   )
 }

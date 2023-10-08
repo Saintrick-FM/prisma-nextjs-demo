@@ -8,7 +8,6 @@ const client = createClient();
 
 return (
 
-
     <div className="w-[1440px] h-[88px] px-[41px] flex-col justify-start items-center gap-2.5 inline-flex">
   <div className="w-[1152px] py-7 justify-between items-center inline-flex">
   <svg width={142} height={32} viewBox="0 0 142 32" fill="none" xmlns="http://www.w3.org/2000/svg">
